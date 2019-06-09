@@ -1,12 +1,14 @@
 # Credita.Me
 
-Assistente virtual acessado via WhatsApp e Facebook Messanger que, através de um chatbot, conversa com o usuário para coletar dados e ofertar as opções de microcrédito mais adequados o seu perfil.
+A Credita.ME É uma assistente virtual acessada via WhatsApp e Facebook Messanger que, através de um chatbot, conversa com o usuário para coletar dados e ofertar as opções de microcrédito mais adequados o seu perfil.
 
 Viabilizando a melhor proposta na concessão do crédito, tornando-a mais assertiva.
 
 ## Tecnologias utilizadas
 
 - Angular 8
+- Chatbots
+
 
 ## Servidor de desenvolvimento
 
