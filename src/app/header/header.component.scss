@@ -1,0 +1,49 @@
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    background-color: #fff;
+    height: 105px;
+    line-height: 105px;
+}
+
+nav {
+    ul {
+        a {
+            position: relative;
+            color: var(--color-blue);
+
+            &:before {
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 5px;
+                content: "";
+                opacity: 0;
+                position: absolute;
+                background: var(--color-orange);
+                transition: opacity .3s ease-in-out; 
+                border-radius: var(--default-border-radius);
+            }
+            
+            &:hover {
+                background-color: #fff;
+                
+                &:before {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+        
+    .brand-logo {
+        margin-top: 10px;
+        transition: opacity .3s;
+
+        &:hover {
+            opacity: .8;
+        }
+    }
+
+    .brand__image {
+        width: 215px;
+        
+    }
+}

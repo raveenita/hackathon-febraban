@@ -1,0 +1,14 @@
+.btn {
+
+    height: 45px;
+    min-width: 155px;
+    line-height: 45px;
+    letter-spacing:  .4px;
+    border-radius: var(--default-border-radius);
+
+    &, &:hover, &:focus {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+    }
+}

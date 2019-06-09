@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+@import './assets/scss/base/reset';
+@import './assets/scss/base/vars';
+@import './assets/scss/base/boot';
+
+@import './assets/scss/components/buttons';
