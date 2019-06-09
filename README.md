@@ -1,27 +1,23 @@
-# Creditame
+# Credita.Me
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+Assistente virtual acessado via WhatsApp e Facebook Messanger que, através de um chatbot, conversa com o usuário para coletar dados e ofertar as opções de microcrédito mais adequados o seu perfil.
 
-## Development server
+Viabilizando a melhor proposta na concessão do crédito, tornando-a mais assertiva.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Tecnologias utilizadas
 
-## Code scaffolding
+- Angular 8
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Servidor de desenvolvimento
 
-## Build
+Para rodar a aplicação, digitar no terminal o comando `ng serve` e navegar até a URL `http://localhost:4200/` para a visualização do app em funcionamento.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Atualizar dependências
 
-## Running unit tests
+Para ter as dependências atualizadas, rodar `npm update`]
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Link para o chatbot preview
 
-## Running end-to-end tests
+acessar `https://m.me/338573176834773` para ter uma prévia do chatbot.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Obrigada!
