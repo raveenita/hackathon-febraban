@@ -16,30 +16,34 @@ nav {
     box-shadow: 0 0 2px #ddd;
     
     ul {
+
+        &.nav-desktop {
+            a {
+                &:before {
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 5px;
+                    content: "";
+                    opacity: 0;
+                    position: absolute;
+                    background: var(--color-orange);
+                    transition: opacity .3s ease-in-out; 
+                    border-radius: var(--default-border-radius);
+                }
+                
+                &:hover {
+                    background-color: #fff;
+                    
+                    &:before {
+                        opacity: 1;
+                    }
+                }        
+            }
+        }
         a {
             position: relative;
             color: var(--color-blue);
-
-            &:before {
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                height: 5px;
-                content: "";
-                opacity: 0;
-                position: absolute;
-                background: var(--color-orange);
-                transition: opacity .3s ease-in-out; 
-                border-radius: var(--default-border-radius);
-            }
-            
-            &:hover {
-                background-color: #fff;
-                
-                &:before {
-                    opacity: 1;
-                }
-            }        
         }
     }
         
