@@ -1,8 +1,16 @@
-nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+nav, nav .nav-wrapper i {
     background-color: #fff;
     height: 105px;
     line-height: 105px;
 }
+
+nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    color: #333;
+    font-size: 42px;
+    background-color: transparent; 
+
+}
+
 
 nav {
     ul {
@@ -29,7 +37,7 @@ nav {
                 &:before {
                     opacity: 1;
                 }
-            }
+            }        
         }
     }
         

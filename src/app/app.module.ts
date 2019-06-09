@@ -7,10 +7,14 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { PoliticaDePrivacidadeComponent } from './politica-de-privacidade/politica-de-privacidade.component';
+import { QuemSomosComponent } from './quem-somos/quem-somos.component';
 
 
 const appRoutes : Routes = [
-  { path: '', component: HomepageComponent }
+  { path: '', component: HomepageComponent },
+  { path: 'quem-somos', component: QuemSomosComponent },
+  { path: 'politica-de-privacidade', component: PoliticaDePrivacidadeComponent }
 ]
 
 @NgModule({
@@ -18,7 +22,9 @@ const appRoutes : Routes = [
     AppComponent,
     HomepageComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    PoliticaDePrivacidadeComponent,
+    QuemSomosComponent
   ],
   imports: [
     RouterModule,

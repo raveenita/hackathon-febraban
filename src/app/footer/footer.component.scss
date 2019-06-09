@@ -1,4 +1,43 @@
 .footer {
-    height: 125px;
+    padding: 45px 0 25px 0;
     background-color: var(--color-blue);
 }
+
+.footer__copyright {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.footer__menu {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    a {
+        color: #fff;
+        font-size: 18px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    li {
+        display: inline-block;
+
+        &:not(:last-child){
+            margin-right: 65px;
+        }
+    }
+
+    .facebook__logo {
+        transition: all .3s;
+
+        &:hover {
+            opacity: .75;
+        }
+    }
+}
+

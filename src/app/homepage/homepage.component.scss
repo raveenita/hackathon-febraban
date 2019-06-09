@@ -18,12 +18,16 @@
 }
 
 .main__title {
+    line-height: 1.3;
     margin-top: 0;
-    font-size: 32px;
-}
+    font-size: 43px;
 
-.main__description {
-    padding-left: 95px;
+    strong {
+        display: block;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 3.5px;
+    }
 }
 
 .main__actions {
@@ -36,10 +40,18 @@
         &:not(.primary){
             color: #333;
             background-color: #fff;
+
+            &:hover {
+                opacity: 0.8;
+            }
         }
 
         &.primary {
             background-color: var(--color-orange);
+
+            &:hover {
+                background-color: lighten(#E64312, 10%);
+            }
         }
     }
 }
@@ -52,5 +64,31 @@
 
     img {
         width: 360px;
+        max-width: 100%;
+    }
+}
+
+@media(min-width: 1294px){
+    .main__description {
+        padding-left: 95px;          
+    }
+}
+
+@media(max-width: 1295px){
+
+    .container { 
+        flex-direction: column;
+    }
+
+    .main__title {
+        text-align: center;
+    }
+    
+    .main__description {
+        padding-top: 95px;
+    }
+
+    .main__actions {
+        text-align: center;
     }
 }
