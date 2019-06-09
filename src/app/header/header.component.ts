@@ -8,14 +8,10 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() {
-      document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.sidenav');
-      var instances = M.Sidenav.init(elems);
-    });
-   }
+  constructor() {}
 
   ngOnInit() {
+   
   }
 
 }

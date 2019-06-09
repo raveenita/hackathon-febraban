@@ -11,8 +11,10 @@ nav a.sidenav-trigger, nav a.sidenav-trigger i {
 
 }
 
-
 nav {
+
+    box-shadow: 0 0 2px #ddd;
+    
     ul {
         a {
             position: relative;

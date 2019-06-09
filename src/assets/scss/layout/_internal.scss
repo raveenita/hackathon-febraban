@@ -1,0 +1,28 @@
+
+.internal__page {
+    padding: 75px 0;
+}
+
+.internal__title {
+    margin-top: 0;
+    font-size: 42px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    color: (--color-blue);
+
+    strong {
+        display: block;
+        font-weight: 700;
+        letter-spacing: 3.5px;
+    }
+
+    span {
+        font-size: 65px;
+        color: var(--color-orange);
+    }
+}
+
+.internal__content {
+    font-size: 18px;
+    line-height: 32px;
+}
